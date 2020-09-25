@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+             width: 100px;
+             height: 25px;
+             margin: 10px;
+        }
+        div{
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form name="forms">
+        <input type="text" name="answer" style="align-items: center;"> <br><br>
+            <input class="main" type="button" value="1" onclick="forms.answer.value+='1'">
+            <input class="main" type="button" value="2" onclick="forms.answer.value+='2'">
+            <input class="main" type="button" value="3" onclick="forms.answer.value+='3'">
+            <br>
+            <input class="main" type="button" value="4" onclick="forms.answer.value+='4'">
+            <input class="main" type="button" value="5" onclick="forms.answer.value+='5'">
+            <input class="main" type="button" value="6" onclick="forms.answer.value+='6'">
+            <br> 
+            <input class="main" type="button" value="7" onclick="forms.answer.value+='7'">
+            <input class="main" type="button" value="8" onclick="forms.answer.value+='8'">
+            <input class="main" type="button" value="9" onclick="forms.answer.value+='9'">
+            <br>
+            <input class="main" type="button" value="+" onclick="forms.answer.value+='+'">
+            <input class="main" type="button" value="-" onclick="forms.answer.value+='-'">
+            <input class="main" type="button" value="*" onclick="forms.answer.value+='*'">
+            <br>
+            <input class="main" type="button" value="/" onclick="forms.answer.value+='/'">
+            <input class="main" type="button" value="0" onclick="forms.answer.value+='0'">
+            <input class="main" type="button" value="=" onclick="forms.answer.value=eval(forms.answer.value)">
+            <br>
+            <input type="button" value="clear all" onclick="forms.answer.value=''">
+         </form>
+</div>
+</body>
+</html>
